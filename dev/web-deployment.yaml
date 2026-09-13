@@ -16,9 +16,12 @@ spec:
         app: sample-multi-app
 
     spec:
+      imagePullSecrets:
+        - name: dockerhub-cred
+
       containers:
         - name: web
-          image: 67070118/sample_multi_app:v1.0
+          image: chotipatp/sample_multi_app:v1.0
 
           ports:
             - containerPort: 8080
