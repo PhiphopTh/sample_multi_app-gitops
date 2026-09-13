@@ -21,7 +21,7 @@ spec:
 
       containers:
         - name: web
-          image: chotipatp/sample_multi_app:v1.1
+          image: 67070118/sample_multi_app:v1.1
 
           ports:
             - containerPort: 8080
